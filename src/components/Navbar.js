@@ -2,20 +2,17 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../logo.png';
 
-
-
 export default class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-sm bg-primary navbar-dark px-sm-5">
-      
-        {/* https://www.iconfinder.com/icons/1243706/market_shop_store_icon
-        Creative Commons (Attribution 3.0 Unported);
-        https://www.iconfinder.com/Makoto_msk  */}
+        
+        {/* Icon made by Freepik [https://www.flaticon.com/authors/freepik] from www.flaticon.com */}
       
         <Link to='/' >
           <img src={logo} alt="store" className="navbar-brand" />
         </Link>
+          jewerly by walt
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
             <Link to='/' className="nav-link" >

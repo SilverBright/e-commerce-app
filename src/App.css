@@ -1,0 +1,27 @@
+/* custom colors */
+
+/* :root {  
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#ffa400; 
+} */
+
+body {
+  font-family: "Lobster", sans-serif !important;
+  background: lightskyblue;
+  color: black;
+}
+
+.text-title {
+  font-family: "Cabin", sans-serif !important;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: darkblue;
+}
+
+.text-bright {
+  color: lightblue;
+}

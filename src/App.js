@@ -1,4 +1,5 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
@@ -9,13 +10,15 @@ import Default from './components/Default';
 
 function App() {
   return (
-    // use fragments to create components that return a list of elements without wrapping them in a container or array
     <React.Fragment>
       <Navbar />
-      <ProductList />
-      <Details />
-      <Cart />
-      <Default />
+      <Switch>
+        <Route exact path='/' component={ProductList} /> 
+        <Route path='/details' component={Details} /> 
+        <Route path='/cart' component={Cart} /> 
+        <Route path='/default' component={Default} />
+        <Route component={Default} />
+      </Switch>
     </React.Fragment>
   );
 }

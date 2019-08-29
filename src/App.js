@@ -4,16 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-6">column number one</div>
-        <div className="col-6">column number two</div>
-        <span>
-            {/* fontawesome home icon */}
-          <i className="fas fa-home" />
-        </span>
-      </div>
-    </div>
+    // use fragments to create components that return a list of elements without wrapping them in a container or array
+    <React.Fragment>
+      <h1>Hello from App.js</h1>
+    </React.Fragment>
   );
 }
 

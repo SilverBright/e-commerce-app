@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const ButtonContainer = styled.button`
-  text-transform: capitalize;
   font-size:1.4rem;
   background: transparent;
   border: 0.08rem solid silver;
@@ -10,6 +9,6 @@ export const ButtonContainer = styled.button`
   transition: all 0.2s ease-in-out;
 &:hover {
   background: lightgrey;
-  color: blue;
+  color: rgb(89, 71, 125);
 }
 `

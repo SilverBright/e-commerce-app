@@ -7,7 +7,9 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-sm bg-primary navbar-dark px-sm-5">
         
-        {/* Icon made by Freepik [https://www.flaticon.com/authors/freepik] from www.flaticon.com */}
+        {/* Icon made by Freepik 
+        [https://www.flaticon.com/authors/freepik] 
+        from www.flaticon.com */}
       
         <Link to='/' >
           <img src={logo} alt="store" className="navbar-brand" />
